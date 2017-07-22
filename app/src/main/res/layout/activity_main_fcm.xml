@@ -12,13 +12,55 @@
         android:text="Doctor:"
         android:textSize="25sp"/>
     <TextView
-        android:id="@+id/doctorName"
+        android:id="@+id/doctor"
         android:layout_below="@id/doctorTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Dr. Drake Ramoray"
         android:layout_centerHorizontal="true"
         android:textSize="20sp"/>
-
+    <TextView
+        android:id="@+id/distanceTitle"
+        android:layout_below="@id/doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance:"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/distance"
+        android:layout_below="@id/distanceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Drake Ramoray"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/addressTitle"
+        android:layout_below="@id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:textSize="25sp"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_below="@id/addressTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr. Drake Ramoray"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/mapTitle"
+        android:layout_below="@id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Map:"
+        android:textSize="25sp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mapTitle"
+        android:src="@drawable/map"/>
 
 </RelativeLayout>

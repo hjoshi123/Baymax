@@ -47,7 +47,12 @@
 
         <activity android:name=".MainActivity" />
         <activity android:name=".UploadPhotoActivity" />
-        <activity android:name=".MenuActivity"></activity>
+        <activity android:name=".MenuActivity">
+            <intent-filter>
+                <action android:name="OPEN_MAIN_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
