@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "563915409978",
+    "firebase_url": "https://baymax-8a09c.firebaseio.com",
+    "project_id": "baymax-8a09c",
+    "storage_bucket": "baymax-8a09c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563915409978:android:fb4bcfade535ccf1",
+        "android_client_info": {
+          "package_name": "in.goflo.baymax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563915409978-iceuf67kks2v75mcuf8s6o7kgo73otkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "in.goflo.baymax",
+            "certificate_hash": "6300fd32acb904d0f441e154bf4f8041bee4803d"
+          }
+        },
+        {
+          "client_id": "563915409978-garol9hca1as4isn4js8hniu3j5263cn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuBFX-4VK2JpXFZVI4KM8tRoiAXSmWAWQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563915409978-garol9hca1as4isn4js8hniu3j5263cn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
