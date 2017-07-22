@@ -34,7 +34,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
 
     private void sendRegistrationToServer(String refreshedToken) {
         RequestQueue queue = Volley.newRequestQueue(this);
-        String url ="http://www.goflo.in?token="+refreshedToken;
+        String url ="http://www.goflo.in:5000/token?token="+refreshedToken;
         // Request a string response from the provided URL.
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
@@ -59,7 +59,7 @@ public class MyFirebaseInstanceIDService extends FirebaseInstanceIdService {
                 });
             }
         });
-// Add the request to the RequestQueue.
+        // Add the request to the RequestQueue.
         queue.add(stringRequest);
     }
 }
