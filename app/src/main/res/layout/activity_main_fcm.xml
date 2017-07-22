@@ -19,6 +19,6 @@
         android:text="Dr. Drake Ramoray"
         android:layout_centerHorizontal="true"
         android:textSize="20sp"/>
-    
+
 
 </RelativeLayout>
